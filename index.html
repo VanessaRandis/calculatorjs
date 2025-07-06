@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div id="page">
+        <h1>Welcome to calculator with JS</h1>
+        <h2>Bem vindo a calculadora com JS</h2>
+        <h2>Bienvenido calculadora con JS </h1>
+        <h2>Benvenuti alla calculatrice JS</h2>
+        
+
+        <input type="text" placeholder="Nome" name="txtn1" id="txtn1"> 
+        <br>
+        <input type="email" placeholder="Email"name="txtn2" id="txtn2">
+        <br>
+        <div id="enviadados">
+        <input type="button" id="envia" value="Enviar dados de acesso" onclick="faixaIdade()">
+        </div>
+        <div id="show"></div>
+        <br>
+        <input type="number" name="txtn3" id="txtn3"> +
+        <input type="number" name="txtn4" id="txtn4">
+        <input type="button" id="teste1" value="Somar" onclick="somar()" onmouseenter="entrou()" onmouseout="saiu()">
+        <div id="res">resultado</div>
+
+        <br>
+        <input type="text" name="txtn5" id="txtn5"> -
+        <input type="text" name="txtn6" id="txtn6">
+        <input type="button"  id="teste2" value="Subtrair" onclick="subtrai()">
+        <div id="sub">resultado</div>
+        <br>
+        <input type="text" name="txtn7" id="txtn7"> /
+        <input type="text" name="txtn8" id="txtn8">
+        <input type="button" id="teste3" value="Divide" onclick="divide()">
+        <div id="divide">resultado</div>
+        <br>
+        <input type="text" name="txtn9" id="txtn9">*
+        <input type="text" name="txtn10" id="txtn10">
+        <input type="button" id="teste4" value="Multiplica" onclick="multi()">
+        <div id="multi">resultado</div>
+    </div>
+     <footer>
+        <div class="inform">
+            <span><strong>Vanessa Randis</strong></span>
+            <span><em>- vanessa.randis@gmail.com - </em></span>
+            <span><strong>Celular: +55 (11)9141-99028</strong></span><br>
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
